@@ -1,0 +1,51 @@
+$notificationColor: #d44141;
+
+.header {
+  position: relative;
+  width: 100%;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+.topbar {
+  position: relative;
+  display: block;
+  background-color: #d44141;
+}
+.topbar {
+  ul {
+    li {
+      display: inline-block;
+      margin-right: 30px;
+      a {
+        font-weight: 500;
+        color: #ffffff;
+      }
+    }
+  }
+}
+
+.basket-box-topbar {
+  position: relative;
+  cursor: pointer;
+
+  i {
+    color: #fff;
+    font-size: 16px;
+  }
+}
+
+.basket-box-notification {
+  position: absolute;
+  right: -5px;
+  top: -5px;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #fff;
+  color: $notificationColor;
+  font-size: 8px;
+  text-align: center;
+}

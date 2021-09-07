@@ -1,0 +1,133 @@
+@media only screen and (max-width: 991px) {
+  .col-m1 {
+    flex: 0 0 8.333333%;
+    max-width: 8.333333%;
+  }
+  .col-m2 {
+    flex: 0 0 16.666667%;
+    max-width: 16.666667%;
+  }
+  .col-m3 {
+    flex: 0 0 25%;
+    max-width: 25%;
+  }
+  .col-m4 {
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+  }
+  .col-m5 {
+    flex: 0 0 41.666667%;
+    max-width: 41.666667%;
+  }
+  .col-m6 {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+  .col-m7 {
+    flex: 0 0 58.333333%;
+    max-width: 58.333333%;
+  }
+  .col-m8 {
+    flex: 0 0 66.666667%;
+    max-width: 66.666667%;
+  }
+  .col-m9 {
+    flex: 0 0 75%;
+    max-width: 75%;
+  }
+  .col-m10 {
+    flex: 0 0 83.333333%;
+    max-width: 83.333333%;
+  }
+  .col-m11 {
+    flex: 0 0 91.666667%;
+    max-width: 91.666667%;
+  }
+  .col-m12 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+}
+@media only screen and (max-width: 599px) {
+  .col-s1 {
+    flex: 0 0 8.333333%;
+    max-width: 8.333333%;
+  }
+  .col-s2 {
+    flex: 0 0 16.666667%;
+    max-width: 16.666667%;
+  }
+  .col-s3 {
+    flex: 0 0 25%;
+    max-width: 25%;
+  }
+  .col-s4 {
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+  }
+  .col-s5 {
+    flex: 0 0 41.666667%;
+    max-width: 41.666667%;
+  }
+  .col-s6 {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+  .col-s7 {
+    flex: 0 0 58.333333%;
+    max-width: 58.333333%;
+  }
+  .col-s8 {
+    flex: 0 0 66.666667%;
+    max-width: 66.666667%;
+  }
+  .col-s9 {
+    flex: 0 0 75%;
+    max-width: 75%;
+  }
+  .col-s10 {
+    flex: 0 0 83.333333%;
+    max-width: 83.333333%;
+  }
+  .col-s11 {
+    flex: 0 0 91.666667%;
+    max-width: 91.666667%;
+  }
+  .col-s12 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  .product-card-footer {
+    flex-direction: column;
+  }
+  .basket-view{
+    height: 70vh;
+  }
+  .basket-content{
+    padding: 0 15px;
+  }
+  .basket-button-box{
+    margin: 25px 0;
+  }
+  .el-input-number {
+    width: 100%;
+  }
+  .el-input-number__decrease,
+  .el-input-number__increase {
+    width: 20px;
+  }
+  .el-input__inner {
+    height: 30px;
+    line-height: 30px;
+  }
+  .el-input-number .el-input__inner {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .el-input-number__increase, .el-input-number__decrease{
+    top: 4px;
+    height: 28px;
+    line-height: 30px;
+  }
+}
